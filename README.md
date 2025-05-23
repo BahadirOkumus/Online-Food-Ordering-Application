@@ -1,5 +1,8 @@
 # Online-Food-Ordering-Application
 An online food delivery application developed with attention to UI/UX design and using API technologies. The app incorporates the MVVM architecture, Retrofit and API integrations, dependency management with Hilt, LiveData and ViewModel usage, and asynchronous operations.
+
+"Developed using knowledge gained from Kasım Adalan's Kotlin bootcamp."
+ 
 --------------------------------------------------------------------------
 ![GeldiGittiTestP1](https://github.com/user-attachments/assets/84c24406-6655-4897-999e-10379976446c)
 --------------------------------------------------------------------------
