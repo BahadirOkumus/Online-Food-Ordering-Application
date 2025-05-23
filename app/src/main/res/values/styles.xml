@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolbarTitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item> <!-- Veya roboto_bold -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

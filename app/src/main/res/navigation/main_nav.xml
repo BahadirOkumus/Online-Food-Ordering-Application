@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/anaSayfaFragment">
+
+    <fragment
+        android:id="@+id/anaSayfaFragment"
+        android:name="com.example.yemekuygulamasi.ui.fragment.AnaSayfaFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" >
+        <action
+            android:id="@+id/detayGecis"
+            app:destination="@id/detayFragment" />
+        <action
+            android:id="@+id/sepetgecis"
+            app:destination="@id/sepetFragment" />
+        <action
+            android:id="@+id/profilGecis"
+            app:destination="@id/profilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.example.yemekuygulamasi.ui.fragment.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" >
+        <action
+            android:id="@+id/profil_to_main"
+            app:destination="@id/anaSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sepetFragment"
+        android:name="com.example.yemekuygulamasi.ui.fragment.SepetFragment"
+        android:label="fragment_sepet"
+        tools:layout="@layout/fragment_sepet" >
+        <action
+            android:id="@+id/sepet_to_main"
+            app:destination="@id/anaSayfaFragment" />
+        <argument
+            android:name="sepetYemek"
+            app:argType="com.example.yemekuygulamasi.data.entity.SepetYemekler" />
+        <action
+            android:id="@+id/sepet_to_detay"
+            app:destination="@id/detayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detayFragment"
+        android:name="com.example.yemekuygulamasi.ui.fragment.DetayFragment"
+        android:label="fragment_detay"
+        tools:layout="@layout/fragment_detay" >
+        <action
+            android:id="@+id/detay_to_main"
+            app:destination="@id/anaSayfaFragment" />
+        <argument
+            android:name="yemek"
+            app:argType="com.example.yemekuygulamasi.data.entity.Yemekler" />
+        <action
+            android:id="@+id/detay_to_sepet"
+            app:destination="@id/sepetFragment" />
+    </fragment>
+</navigation>
