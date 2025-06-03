@@ -60,11 +60,11 @@ class SepetFragment : Fragment(), SepetAdapter.ToplamSepet {
         viewModel.sepetYemeklerListesi.observe(viewLifecycleOwner) { liste ->
             if (liste.isNullOrEmpty()) {
                 binding.sepetRv.visibility = View.GONE
-                binding.imageViewSepetBos.visibility = View.VISIBLE
+                binding.lottieViewSepet.visibility = View.VISIBLE
 
             } else {
                 binding.sepetRv.visibility = View.VISIBLE
-                binding.imageViewSepetBos.visibility = View.GONE
+                binding.lottieViewSepet.visibility = View.GONE
                 sepetAdapter.updateList(liste)
             }
         }
@@ -74,7 +74,7 @@ class SepetFragment : Fragment(), SepetAdapter.ToplamSepet {
             Snackbar.make(it,"Sepet onaylandı", Snackbar.LENGTH_SHORT).show()
             lifecycleScope.launch {
                 viewModel.sepetiTemizle()
-                delay(300)
+                delay(100)
                 findNavController().navigate(R.id.sepet_to_main)
             }
         }

@@ -5,5 +5,9 @@
         <item name="android:fontFamily">@font/poppins_bold</item> <!-- Veya roboto_bold -->
         <item name="android:textStyle">bold</item>
     </style>
+    <style name="CircleImageViewStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 
 </resources>

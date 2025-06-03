@@ -7,12 +7,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
 import com.example.yemekuygulamasi.R
 import com.example.yemekuygulamasi.databinding.FragmentDetayBinding
 import com.example.yemekuygulamasi.ui.viewmodel.DetayViewModel
+import com.example.yemekuygulamasi.utils.gecisYap
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -71,6 +73,7 @@ class DetayFragment : Fragment() {
                 val kullanici_adi = "okumu"
 
                 viewModel.sepeteEkle(yemek_adi, yemek_resim_adi, yemek_fiyat, yemek_siparis_adet, kullanici_adi)
+                findNavController().navigate(R.id.detay_to_main)
 
                 Snackbar.make(binding.root, "${yemek_adi} sepete eklendi", Snackbar.LENGTH_SHORT).show()
             }

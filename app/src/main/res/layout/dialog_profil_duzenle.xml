@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etAd"
+        android:hint="Ad Soyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etTel"
+        android:hint="Telefon Numarası"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnProfilResmiYukle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profil Resmi Yükle"
+        android:layout_marginTop="12dp"/>
+
+
+</LinearLayout>

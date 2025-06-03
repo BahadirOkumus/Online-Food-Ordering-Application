@@ -118,6 +118,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:text="Sepete Ekle"
+        android:backgroundTint="#DCC6E0"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_donus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

@@ -55,7 +55,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:backgroundTint="#DCC6E0"
         android:text="Sepeti Onayla"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_donus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -95,15 +97,19 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="1.0" />
 
-    <ImageView
-        android:id="@+id/imageViewSepetBos"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:src="@drawable/sepetbos"
-        app:layout_constraintBottom_toBottomOf="@+id/sepetRv"
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieViewSepet"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="112dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="Animation - empty.json"
+        app:lottie_loop="true" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -69,4 +69,6 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.13.2")
     implementation ("com.airbnb.android:lottie:6.4.0")
     implementation("com.google.android.gms:play-services-base:18.3.0")
+    implementation ("com.google.android.material:material:1.10.0")
+
 }
