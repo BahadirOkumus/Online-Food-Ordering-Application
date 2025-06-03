@@ -6,11 +6,13 @@ An online food delivery application developed with attention to UI/UX design and
 --------------------------------------------------------------------------
 ![GeldiGittiTestP1](https://github.com/user-attachments/assets/84c24406-6655-4897-999e-10379976446c)
 --------------------------------------------------------------------------
-![GeldiGittiTestP2](https://github.com/user-attachments/assets/4d54b82d-fa38-4dd1-9814-2101be7f5f25)
+![Android Emulator - Pixel_2_5554 1 06 2025 19_32_20](https://github.com/user-attachments/assets/cfc80a14-903f-4665-bcb8-30d6dcfe81db)
 --------------------------------------------------------------------------
-![GeldiGittiTestP3](https://github.com/user-attachments/assets/ef9c13ee-2818-4141-b8e8-865c57f4c563)
+![Android Emulator - Pixel_2_5554 1 06 2025 19_32_39](https://github.com/user-attachments/assets/34366089-86c5-45df-ae61-d6e31fddc699)
 --------------------------------------------------------------------------
-![GeldiGittiTestP4](https://github.com/user-attachments/assets/0ea69532-ff00-480a-9081-f611593fb212)
+![Android Emulator - Pixel_2_5554 1 06 2025 19_32_51](https://github.com/user-attachments/assets/3358a5c2-2b2f-4ff0-a510-000f5ca37226)
+--------------------------------------------------------------------------
+![Android Emulator - Pixel_2_5554 1 06 2025 19_33_13](https://github.com/user-attachments/assets/af266fc2-5d25-4439-a052-2f0549f41aa9)
 --------------------------------------------------------------------------
 ![GeldiGittiTestP5](https://github.com/user-attachments/assets/40263206-f598-49c3-a707-34cf3fa13097)
 --------------------------------------------------------------------------
